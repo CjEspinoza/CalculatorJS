@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <label id="sc">Simple Calculator</label>
+        <input type="text" id="input" ><br>
+        <label>Result: </label><br>
+        <button id="clear" onclick="cl()">Clear</button>
+        <button id="delete" onclick="del()">Delete</button><br>
+        <button id="addition" value="+" onclick="dis('+')" >+</button>
+        <button id="subtraction" value="-" onclick="dis('-')">-</button>
+        <button id="multiplication" value="*" onclick="dis('*')">x</button><br>
+        <button id="division" value="/" onclick="dis('/')">/</button>
+        <button id="power" value="²" onclick="pow('**2')">x²</button>
+        <button id="modulo" value="%" onclick="dis('%')">%</button><br>
+        <button id="equals" onclick="eq()">=</button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html
